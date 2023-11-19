@@ -1,0 +1,99 @@
+.Header{
+    background-color: rgb(207, 229, 252);
+    padding:25px !important;
+    font-size: 35px !important;
+    font-weight: 500 !important;
+    box-shadow: 0px 0px 10px rgba(110, 106, 106, 0.5);
+}
+.searchBox{
+    padding: 10px;
+    width:500px !important;
+    height:4em !important;
+    margin: 40px 0px 0px 400px !important;
+    border: none;
+    padding: 2px 0px 0px 35px !important;
+    font-size:14px !important;
+    border-radius: 7px !important;
+    box-shadow: 2px 4px 7px rgb(207, 229, 252);
+    outline: none !important;
+    font-family: sans-serif;
+    font-weight: 500;
+    float: left;
+}
+.FoodListContainer{
+    width: 415px;
+    float: left;
+
+}
+.FoodCards{
+    margin: 30px 70px;
+    width: 300px;
+    float: left;
+    border-radius: 6px;
+    box-shadow: 2px 4px 7px rgb(207, 229, 252);
+    border-radius: 7px;
+}
+.foodImageCards{
+    padding: 3px;
+    margin: 10px;
+    border-radius: 7px;
+}
+.foodImage{
+    width: 275px;
+    height: 150px;
+    border-radius: 7px;
+}
+.detailsTab{
+    text-align: center;
+}
+.detailsTab button{
+    width: 100%;
+    margin: 10px 0px 0px 0px;
+    padding: 10px;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+}
+.ViewFoodTab{
+    float: left;
+    margin:37px 0px 0px 0px;
+    /* background: rgb(122, 48, 48); */
+    padding: 10px;
+    width: 57em;
+    border-radius: 7px;
+}
+.centeredImageContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Optionally set a specific height if needed, like 100% of the viewport height */
+  }
+  
+.loaderimage {
+    max-width: 100%; /* Ensure the image doesn't exceed its container */
+    max-height: 100%; /* Ensure the image doesn't exceed its container */
+}
+
+.ViewFoodTab .ImageTab{
+    margin: auto;
+    text-align: center;
+}
+.foodDescription a{
+    text-decoration: underline;
+    color: black;
+}
+.foodDescription a:hover{
+    color: rgb(85, 161, 241);
+}
+.ingredients li{
+    text-transform: capitalize;
+    color:black;
+}
+.ingredients a{
+    width: fit-content;
+    text-decoration: none;
+    display: block;
+}
+.ingredients li:hover{
+    color: rgb(85, 161, 241);
+}
