@@ -9,7 +9,7 @@ export default function SearchRecipe({ searchFood, setFood }) {
   const [query, setQuery] = useState("");
   var placeholder = "Search Here ... " + emoji.get("pizza");
 
-  //syntax firstparameter,:callback function,second parameter,array.
+  //syntax firstparameter: callback function,second parameter,array.
   //to be noted useEffect function calls  when dom loads.
   useEffect(() => {
     async function fetchFood() {
