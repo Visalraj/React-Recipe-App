@@ -12,7 +12,7 @@ export default function ViewFood({ selectedFoodId }) {
       const response = await fetch(`${URL}?apiKey=${API}`);
       const data = await response.json();
       setuserSelectedFood(data);
-      setloadingState(true);
+      setloadingState(false);
     }
     getSelectedFoodItem();
   }, [selectedFoodId]);
